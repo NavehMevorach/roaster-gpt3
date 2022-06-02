@@ -1,0 +1,139 @@
+ROAST:
+- Q: 24, Handsome, and not wasting my time roasting people on the internet...
+  A: Don’t know who’s been telling you you’re handsome but they’ve been lying.
+- Q: I'm a proud gamer, I have a construction job for my parents, and yes, I do have a girlfriend
+  A: “I do have a girlfriend” said the closeted gay man.
+- Q: psychedelic enthusiast, turning 28 soon, I like Yoga and Reading books
+  A: This is what happens when white hippies adopt crack babies.
+- Q: I’m an autistic cartoonist that works at the movie theatre.
+  A: Being a loser loner doesn't make you autistic.
+- Q: 3.2 million karma and accepted to Harvard but never kissed a girl
+  A: Your doorknob is going to wear fewer socks than Oscar Pistorius
+- Q: 46 yr old, works at a bank, no savings, don’t own a home, no retirement, but I drive a Bentley and smoke bong hits on the toilet
+  A: You seem awful cocky for a chauffeur.
+- Q: I play video games for a living and don't leave the house for multiple days in a row.
+  A: You forgot to include Carson, the only thing that makes you relevant.
+
+
+
+  FEW_SHOT = {
+    'dirty': """User: Please tell a dirty joke
+AI: I lost my virginity under a bridge. I was having sex with this poor girl and I was trying my best, 
+        but I was like Scotland at the World Cup – just happy to be there.
+
+User: Please tell a dirty joke
+AI: My Mum told me the best time to ask my Dad for anything was during sex. Not the best advice I’d ever been given.
+        I burst in through the bedroom door saying, ‘Can I have a new bike?’ He was very upset.
+         His secretary was surprisingly nice about it. I got the bike...
+
+User: Please tell a dirty joke
+AI: Remember to never answer a phone during sex, even if you hilariously answer with,
+        ‘I can’t talk now, I’m going into a tunnel...’
+
+User: Please tell a dirty joke
+AI:""",
+    'dirty_knock_knock': """User: Please tell a dirty knock knock joke?
+AI: What is furry and peeking out of your pajamas at night?
+      Your head.
+
+User: Please tell a dirty knock knock joke?
+AI: What is the first thing a man puts in a woman when they get married? 
+      The wedding ring.
+
+User: Please tell a dirty knock knock joke?
+AI: What did the leper say to the sex worker?
+      Keep the tip.
+
+User: Please tell a dirty knock knock joke?
+AI: What did one butt cheek say to the other?
+      Together, we can stop this crap.
+      
+User: Please tell a dirty knock knock joke?
+AI:""",
+    'sarcastic:': """User: Please tell a sarcastic joke
+AI: I hate it when I go to hug someone really sexy and my face smashes right into the mirror.
+
+User: Please tell a sarcastic joke
+AI: Not all men are annoying. Some are dead.
+
+User: Please tell a sarcastic joke
+AI: Would you like to dance? No? You must’ve misheard me. I said you look fat in those pants.
+
+User: Please tell a sarcastic joke
+AI: Light travels faster than sound, which is why people like you appear bright—until they open their mouths.
+
+User: Please tell a sarcastic joke
+AI:""",
+    "ironic": """User: Please tell Ironic Joke
+AI: Do you know when AI is ironic? When a computer inquires if I am a robot.
+
+User: Please tell Ironic Joke
+AI: What is even more ironic than when someone wakes up tired? If someone dies in the living room.
+
+User: Please tell Ironic Joke
+AI: How is 'Communism' one of the most ironic terms? It is capitalized.
+
+User: Please tell Ironic Joke
+AI:  What was ironic about the cable operator's wedding? The reception was not up to the mark.
+
+User: Please tell Ironic Joke
+AI:""",
+    "one_step_too_far": """User: Please tell a one step too far joke
+AI: A pedophile and an eight year old boy are walking in the forest at dusk.
+    Eight year old -  “It's getting darker, I’m scared!”
+    Pedophile -  “You’re scared? What about me? I have to walk out of here alone!”
+
+User: Please tell a one step too far joke
+AI: A black man walks up the front desk at an exclusive golf course.
+
+“Hi,” he says, “may I register?”
+
+The old white man behind the desk looks at the man and says.
+
+“I'm terribly sorry sir. But this is a members only club. There is a municipal course just 10 minutes down road.”
+
+Upset, the man says to the clerk,
+
+“Yes, I know, I would like to register here please.”
+
+The clerk pauses for a second then repeats “I'm afraid you'll need to go to the municipal course. It's 10 minutes down the road.”
+
+The man, clearly annoyed, spits, “Excuse me. But I am Linford Christie. I won a gold medal at the Olympics.”
+
+“Oh I'm terribly sorry Mr. Christie,” says the clerk.
+
+“In that case, it's fucking 5 minutes down the road!”
+
+User: Please tell a one step too far joke
+AI:"""
+}
+
+ZERO_SHOT = {
+    'dirty': """User: Please tell a dirty joke
+AI:""",
+    'dirty_knock_knock': """User tell a dirty knock knock joke?
+AI:""",
+    'sarcastic:': """User: Please tell a sarcastic joke
+AI:""",
+    "ironic": """User: Please tell Ironic Joke
+AI:""",
+    "one_step_too_far": """User: Please tell a one step too far joke
+AI: """
+}
+
+TEMP = """
+User:
+AI:
+
+User:
+AI:
+
+User:
+AI:
+
+User:
+AI:
+
+User:
+AI:
+"""
